@@ -1,11 +1,10 @@
 # Credit-Card-Fraud-Detection-EDA-
 
-Exploratory Data Analysis (EDA) on the **Credit Card Fraud Detection Dataset (2023)**.
-The project focuses on identifying patterns in fraudulent vs legitimate transactions using Python.
+This project performs **Exploratory Data Analysis (EDA)** on the **Credit Card Fraud Detection Dataset (2023)**. The focus is on identifying patterns in **fraudulent vs. legitimate transactions** using Python. The analysis provides insights into fraud behavior and lays the foundation for building machine learning models.
 
 **Workflow**
 1. Data Quality Check (missing values, duplicates, outliers)
-2. Class Distribution (legitimate vs fraud)
+2. Class Distribution (legitimate(0) vs fraud(1))
 3. Transaction Amount Analysis
 4. Correlation Heatmap
 5. Feature vs Class Visualization (boxplots, histograms)
@@ -26,5 +25,4 @@ Libraries: **Pandas, NumPy, Seaborn, Matplotlib**
 
 
 **Conclusion**
-This project highlights how EDA techniques can reveal fraud patterns in financial transactions.
-It serves as a foundation for further work, such as applying machine learning models for real-world fraud detection.
+This project demonstrates how EDA techniques can reveal hidden patterns in financial transactions and help detect anomalies. While rule-based detection provides some insights, advanced techniques like machine learning are needed for real-world fraud detection.
